@@ -1,0 +1,31 @@
+.stack {
+	&__title {
+		margin-bottom: 20px;
+		white-space: nowrap;
+	}
+
+	&__list {
+		font-weight: 700;
+	}
+
+	&__item {
+		&:not(:last-child) {
+			margin-bottom: 5px;
+		}
+		font-size: 20px;
+		position: relative;
+		padding-left: 10px;
+		&::before {
+			position: absolute;
+			top: 50%;
+			left: 0;
+			transform: translateY(-50%);
+			display: inline-block;
+			content: '';
+			width: 5px;
+			height: 5px;
+			border-radius: 50%;
+			background-color: #256091;
+		}
+	}
+}

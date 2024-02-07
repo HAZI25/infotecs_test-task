@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Golos+Text&display=swap');
+
+body {
+	font-family: 'Anonymous Pro', 'Times New Roman', Times, serif;
+	min-height: 100vh;
+	font-size: 16px;
+	color: #333333;
+	background-color: #fafafa;
+}
+
+.page {
+	flex-grow: 1;
+}
+
+.container {
+	max-width: 1230px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.title {
+	font-size: 28px;
+	font-weight: 700;
+	&::before {
+		content: '[';
+		color: #256091;
+	}
+	&::after {
+		content: ']';
+		color: #256091;
+	}
+}
+
+.button {
+	border-radius: 3px;
+	font-family: 'Golos Text';
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: #c7523f;
+	color: white;
+}

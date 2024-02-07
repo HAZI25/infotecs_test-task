@@ -1,0 +1,33 @@
+.users-table {
+	&__header {
+		border: 1px solid black;
+		padding: 10px;
+		background-color: #256091;
+		color: white;
+		resize: horizontal;
+		overflow: auto;
+		min-width: 50px;
+		cursor: pointer;
+	}
+
+	&__header-wrapper {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		justify-content: center;
+	}
+
+	&__sort {
+		display: flex;
+		flex-direction: column;
+		gap: 3px;
+	}
+
+	&__sort-icon {
+		fill: rgb(190, 190, 190);
+
+		&.active {
+			fill: white;
+		}
+	}
+}

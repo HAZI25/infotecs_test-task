@@ -1,0 +1,29 @@
+.footer {
+	background-color: white;
+	padding: 15px 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+	&__container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__list {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+
+	&__item {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+	}
+
+	&__item-icon {
+		width: 30px;
+		height: 30px;
+	}
+}

@@ -1,0 +1,11 @@
+.users-table {
+	&__data {
+		border: 1px solid black;
+		padding: 5px;
+		cursor: pointer;
+	}
+
+	tr:nth-child(even) {
+		background-color: #f0f0f0;
+	}
+}
